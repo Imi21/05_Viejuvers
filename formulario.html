@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viejuvers formulario</title>
+</head>
+<body>
+
+
+    <form>
+        <label for="fname">Nombre:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Apellidos:</label><br>
+        <input type="text" id="lname" name="lname">
+      </form> 
+
+      <form>
+          <label for="edad">Como de viejo eres?</label><br>
+          <input type="number" name="edad" id="edad" min="30" max="99">
+      </form><br>
+
+      <form>
+          <input type="radio" id="genero" name="genero" value="masculino">
+          <label for="genero">Masculino</label><br>
+
+          <input type="radio" id="genero" name="genero" value="masculino">
+          <label for="genero">Femenino</label><br>
+          
+      </form><br>
+
+      <form>Eres viejuner?
+          <input type="checkbox" id="sino" name="sino" value="si">
+          <label for="sino">Si</label>
+          <input type="checkbox" id="sino" name="sino" value="no">
+          <label for="sino">No lo quiero reconocer, pero si.</label>
+      </form><br>
+
+        <label for="sobreti">Diga algo sobre usted</label><br><br>
+      <textarea name="habla sobre ti" id="sobreti" cols="30" rows="10">
+    
+      </textarea><br><br>
+
+      <form>
+          <label for="mail">E-mail</label>
+          <input type="email" name="mail" id="mail" value="viejo@terra.es">     
+      </form><br>
+
+      <form>
+          <label for="pho">Telefono</label>
+          <input type="tel" name="pho" id="pho" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}">
+      </form>
+      <h2>
+          ROBO DE BICICLETAS
+      </h2>
+
+      <form>
+          <label for="fecha">Fecha del robo</label>
+          <input type="date" name="fecha" id="fecha">
+      </form><br>
+
+      <form>
+        <label for"hora">Hora del robo</label>
+        <input type="time" name="hora" id="hora">
+    </form><br>
+
+    <form>
+        <label for="color">Color bici</label>
+        <input type="color" id="color">
+    </form>
+
+    <p>
+
+       Tipo de bici:
+      
+        <select>
+      
+          <optgroup label="Paseo">
+      
+            <option>Señorial</option>
+      
+            <option>Anti-Plebeyos</option>
+      
+            <option>PorEncimaDelHombro</option>
+      
+          </optgroup>
+      
+          <optgroup label="Montaña">
+      
+            <option>Gamusinos</option>
+      
+            <option>Huele flores</option>
+
+            <option>Fango lover</option>
+      
+          </optgroup>
+
+          <optgroup label="Carreras">
+      
+            <option>Metroymedio</option>
+      
+            <option>3 de la tarde.</option>
+
+            <option>Grupitors</option>
+      
+          </optgroup>
+      
+        </select>
+      
+      </p>
+      
+<form>
+      <label for="cleta">Marca de bici</label>
+
+      <select name="cleta" id="cleta" multiple>
+        <option value="orbea">Orbea</option>
+        <option value="scott">Scott</option>
+        <option value="bh">BH</option>
+        <option value="argon">Argon</option>
+      </select>
+
+      <br><br>
+  <input type="submit" value="Submit">
+</form>
+    
+</body>
+</html>
